@@ -4,7 +4,6 @@ flag=1
 else
 flag=0
 fi
-if[$flag -eq 1]; then
 echo "Instalando Github"
 sudo apt-get install git
 echo "Digite seu nome de usuário git (username):"
@@ -22,4 +21,3 @@ mkdir Git
 cd Git
 git init
 echo "Instalado com sucesso!"
-fi
